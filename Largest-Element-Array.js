@@ -1,4 +1,4 @@
-
+//Largest element using Brute Force - sorting
 function Maxele(arr){
     arr.sort((a,b) => b-a)
     return arr[0]
