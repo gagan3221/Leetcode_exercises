@@ -47,7 +47,7 @@ Whether you're preparing for coding interviews, enhancing your problem-solving s
 
    ```bash
    git clone https://github.com/your-username/dsa-using-js.git
-   cd dsa-using-js
+   cd Leetcode_exercises
    ```
 
 2. Install dependencies (if applicable):
