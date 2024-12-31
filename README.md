@@ -46,7 +46,7 @@ Whether you're preparing for coding interviews, enhancing your problem-solving s
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/dsa-using-js.git
+   git clone https://github.com/gagan3221/Leetcode_exercises.git
    cd Leetcode_exercises
    ```
 
