@@ -4,7 +4,7 @@ function RemoveDuplicate(arr){
     arr.length = newArr.length;
     for(let i = 0 ; i < newArr.length ; i++){
         arr[i] = newArr[i]
-    }
+    } 
 
     for(let i = 0 ; i < arr.length ; i++){
         console.log(arr[i])
