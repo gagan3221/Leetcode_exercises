@@ -8,7 +8,6 @@ Welcome to the **DSA Using JavaScript** repository! This project is a comprehens
 2. [Features](#features)
 3. [Getting Started](#getting-started)
 4. [Contribution Guidelines](#contribution-guidelines)
-5. [License](#license)
 
 ---
 
@@ -88,11 +87,6 @@ Please ensure that your contributions:
 
 ---
 
-## License
-
-This repository is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this code as per the license terms.
-
----
 
 Feel free to explore and contribute to the repository! 🚀
 
