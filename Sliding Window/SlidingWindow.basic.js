@@ -1,3 +1,5 @@
+//Naive Approach
+
 const arr = [1, 2, 6, 2, 4, 1];
 const k = 3;
 const n = arr.length;
