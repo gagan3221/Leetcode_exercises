@@ -31,6 +31,16 @@ class Graph {
     }
     return false;
   }
+
+  removeVertex(vertex) {
+    if (!this.adjacencyList[vertex]) return undefined;
+    while (this.adjacencyList[vertex].length) {
+      let temp = this.adjacencyList[vertex].pop();
+      this.removeEdge(vertex, temp);
+    }
+    delete this.adjacencyList[vertex];
+    return this;
+  }
 }
 
 const g = new Graph();
@@ -38,5 +48,6 @@ const g = new Graph();
 g.addVertex("A");
 g.addVertex("B");
 g.addEdge("A", "B");
-g.removeEdge("A", "B");
+g.removeVertex("B");
+console.log(g.removeVertex("B"));
 console.log(g);
